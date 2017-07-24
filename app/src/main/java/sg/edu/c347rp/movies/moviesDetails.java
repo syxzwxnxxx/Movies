@@ -42,7 +42,7 @@ public class moviesDetails extends AppCompatActivity {
         String date = intentReceived.getStringExtra("date");
         String place = intentReceived.getStringExtra("place");
 
-        if (title == "The Avengers") {
+        if (title.equals("The Avengers")) {
             tvTitle.setText(title);
             tvDetail.setText(detail);
             tvDate.setText(date);
